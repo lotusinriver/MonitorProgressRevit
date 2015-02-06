@@ -11,6 +11,7 @@ Which means Revit API call is not allowed to start in BackGroundWorker
 Here is a workaround to monitor the progress in a modal dialog while running Revit API call at the same time.
 
 Two tricks:
+
 1)Start Revit API call when windows.forms.shown()  event is fired
 
 2)Call Application.DoEvents() to update progress status
