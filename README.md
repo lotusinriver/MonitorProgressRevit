@@ -8,7 +8,7 @@ http://thebuildingcoder.typepad.com/blog/2014/05/multithreading-throws-exception
 Multi-treaded use of the Revit API is not supported since Revit 2015.
 Which means Revit API call is not allowed to start in BackgroundWorker
 
-Here is a workaround to monitor the progress in a modal dialog while running Revit API call at the same time.
+Here is a workaround to monitor the progress in a modal dialog while running Revit API call in the same thread.
 
 Two tricks:
 
