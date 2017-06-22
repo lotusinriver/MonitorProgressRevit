@@ -22,12 +22,12 @@ Public Class UpdateParameter
     Dim frm As frmProgressStatus = New frmProgressStatus()
     'Start Revit Call here
     AddHandler frm.Shown, AddressOf RevitCallWithProgessBar
-    frm.ShowDialog()
+        frm.ShowDialog()
 
 
-  End Sub
+    End Sub
 
-  Private Sub RevitCallWithProgessBar(sender As Object, e As EventArgs)
+    Private Sub RevitCallWithProgessBar(sender As Object, e As EventArgs)
     Dim frm As frmProgressStatus = sender
 
     For i As Integer = 1 To 100
