@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Monitor Progress C# and WPF</Text>
+    <Assembly>MonitorProgressCSharp.dll</Assembly>
+    <FullClassName>MonitorProgressCSharp.Main</FullClassName>
+    <ClientId>CBEECE7C-889B-42EF-83B9-3C1C3AD7D98F</ClientId>
+    <VendorId>ONBOX</VendorId>
+    <VendorDescription>https://www.facebook.com/groups/1766576276918452/</VendorDescription>
+  </AddIn>
+</RevitAddIns>
